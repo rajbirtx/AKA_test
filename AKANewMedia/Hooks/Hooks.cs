@@ -10,7 +10,7 @@ using OpenQA.Selenium.IE;
 using TechTalk.SpecFlow;
 using AKANewMedia.GenericMethods;
 
-namespace AKANewMedia.Hooks 
+namespace AKANewMedia.Hooks
 {
     [Binding]
     public sealed class Hooks
@@ -27,7 +27,6 @@ namespace AKANewMedia.Hooks
             Console.WriteLine(URL);
             if (BrowserName.ToLower() == "chrome")
             {
-                
                 GeneralMethods.driver = new ChromeDriver(@"C:\Users\Aman Pahuja\source\repos\AKANewMedia\AKANewMedia\Drivers");
                 GeneralMethods.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(100);
                 GeneralMethods.driver.Navigate().GoToUrl(URL);
@@ -58,7 +57,7 @@ namespace AKANewMedia.Hooks
                 IWebDriver objFirefox = new FirefoxDriver(Service, options, TimeSpan.FromSeconds(60));
 
                 objFirefox.Navigate().GoToUrl(URL);
-                
+
 
             }
         }
