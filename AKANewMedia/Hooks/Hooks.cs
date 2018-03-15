@@ -27,7 +27,7 @@ namespace AKANewMedia.Hooks
             Console.WriteLine(URL);
             if (BrowserName.ToLower() == "chrome")
             {
-                GeneralMethods.driver = new ChromeDriver(@"C:\Users\Rajbir.Kaur\source\repos\automation\AKANewMedia\Drivers");
+                GeneralMethods.driver = new ChromeDriver(@"C:\BuildAgent\work\7208447af8b97fa0\AKANewMedia\Drivers");
                 GeneralMethods.driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(100);
                 GeneralMethods.driver.Navigate().GoToUrl(URL);
                 GeneralMethods.driver.Manage().Window.Maximize();
@@ -39,7 +39,7 @@ namespace AKANewMedia.Hooks
 
                 options.IntroduceInstabilityByIgnoringProtectedModeSettings = true;
                 GeneralMethods.driver = new InternetExplorerDriver(options);
-                GeneralMethods.driver = new InternetExplorerDriver(@"C:\Users\Rajbir.Kaur\source\repos\automation\AKANewMedia\Drivers");
+                GeneralMethods.driver = new InternetExplorerDriver(@"C:\BuildAgent\work\7208447af8b97fa0\AKANewMedia\Drivers");
                 GeneralMethods.driver.Navigate().GoToUrl(URL);
                 System.Threading.Thread.Sleep(100);
                 GeneralMethods.driver.Manage().Window.Maximize();
@@ -51,7 +51,7 @@ namespace AKANewMedia.Hooks
 
                 FirefoxProfile profile = Manager.GetProfile("Default");
 
-                FirefoxDriverService Service = FirefoxDriverService.CreateDefaultService(@"C:\Users\Rajbir.Kaur\source\repos\automation\AKANewMedia\Drivers");
+                FirefoxDriverService Service = FirefoxDriverService.CreateDefaultService(@"C:\BuildAgent\work\7208447af8b97fa0\AKANewMedia\Drivers");
 
                 FirefoxOptions options = new FirefoxOptions();
                 options.Profile = profile;
