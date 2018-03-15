@@ -100,6 +100,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="bin\Debug\AKANewMedia.dll.config" />
+    <None Include="bin\Debug\nunit_random_seed.tmp" />
     <None Include="ExcelReader\TestData.xlsx" />
     <None Include="Features\GeneralDonation1.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
@@ -114,31 +115,20 @@
     <Content Include="bin\Debug\AKANewMedia.dll" />
     <Content Include="bin\Debug\AKANewMedia.pdb" />
     <Content Include="bin\Debug\HtmlAgilityPack.dll" />
-    <Content Include="bin\Debug\HtmlAgilityPack.pdb" />
-    <Content Include="bin\Debug\HtmlAgilityPack.xml" />
     <Content Include="bin\Debug\ICSharpCode.SharpZipLib.dll" />
     <Content Include="bin\Debug\MongoDB.Bson.dll" />
-    <Content Include="bin\Debug\MongoDB.Bson.xml" />
     <Content Include="bin\Debug\MongoDB.Driver.Core.dll" />
-    <Content Include="bin\Debug\MongoDB.Driver.Core.xml" />
     <Content Include="bin\Debug\MongoDB.Driver.dll" />
-    <Content Include="bin\Debug\MongoDB.Driver.xml" />
     <Content Include="bin\Debug\Newtonsoft.Json.dll" />
-    <Content Include="bin\Debug\Newtonsoft.Json.xml" />
     <Content Include="bin\Debug\nunit.framework.dll" />
-    <Content Include="bin\Debug\nunit.framework.xml" />
     <Content Include="bin\Debug\RazorEngine.dll" />
-    <Content Include="bin\Debug\RazorEngine.xml" />
     <Content Include="bin\Debug\RelevantCodes.ExtentReports.dll" />
     <Content Include="bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll" />
     <Content Include="bin\Debug\System.ValueTuple.dll" />
     <Content Include="bin\Debug\System.Web.Razor.dll" />
-    <Content Include="bin\Debug\System.Web.Razor.xml" />
     <Content Include="bin\Debug\TechTalk.SpecFlow.dll" />
     <Content Include="bin\Debug\WebDriver.dll" />
     <Content Include="bin\Debug\WebDriver.Support.dll" />
-    <Content Include="bin\Debug\WebDriver.Support.xml" />
-    <Content Include="bin\Debug\WebDriver.xml" />
     <Content Include="Drivers\chromedriver.exe" />
     <Content Include="Drivers\geckodriver.exe" />
     <Content Include="Drivers\IEDriverServer.exe" />
