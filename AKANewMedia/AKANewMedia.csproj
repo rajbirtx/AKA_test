@@ -34,9 +34,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ExtentReports, Version=3.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExtentReports.3.1.1\lib\ExtentReports.dll</HintPath>
-    </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.9.5, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\packages\HtmlAgilityPack.1.4.9.5\lib\Net45\HtmlAgilityPack.dll</HintPath>
     </Reference>
@@ -60,6 +57,9 @@
     </Reference>
     <Reference Include="RazorEngine, Version=3.10.0.0, Culture=neutral, PublicKeyToken=9ee697374c7e744a, processorArchitecture=MSIL">
       <HintPath>..\packages\RazorEngine.3.10.0\lib\net45\RazorEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="RelevantCodes.ExtentReports">
+      <HintPath>..\..\..\..\Users\Rajbir.Kaur\source\repos\automation\AKANewMedia\bin\Debug\RelevantCodes.ExtentReports.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
@@ -105,7 +105,6 @@
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>GeneralDonation1.feature.cs</LastGenOutput>
     </None>
-    <None Include="license" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -143,7 +142,6 @@
     <Content Include="Drivers\chromedriver.exe" />
     <Content Include="Drivers\geckodriver.exe" />
     <Content Include="Drivers\IEDriverServer.exe" />
-    <Content Include="extent-config.xml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
