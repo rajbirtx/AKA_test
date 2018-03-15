@@ -35,6 +35,8 @@ namespace AKANewMedia.Hooks
             else if (BrowserName.ToLower() == "ie")
             {
                 var options = new InternetExplorerOptions();
+
+
                 options.IntroduceInstabilityByIgnoringProtectedModeSettings = true;
                 GeneralMethods.driver = new InternetExplorerDriver(options);
                 GeneralMethods.driver = new InternetExplorerDriver(@"C:\Users\Rajbir.Kaur\source\repos\automation\AKANewMedia\Drivers");
